@@ -10,7 +10,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 public class UserProfile {
 
     String id;
-    String authId;
+    Long authId;
     String username;
     String name;
     String surname;
