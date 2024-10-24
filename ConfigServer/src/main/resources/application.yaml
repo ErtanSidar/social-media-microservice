@@ -1,0 +1,16 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: config-server-git
+  cloud:
+    config:
+      server:
+        git:
+          uri: "https://github.com/ErtanSidar/social-media-microservice-config-server.git"
+          default-label: "main"
+          skip-ssl-validation: true
+          username: "ErtanSidar"
+          password: ${GIT_KEY}
+#          "you need to create a token (in github with developer settings) after that you can add in environment veritable for connection!!!"
