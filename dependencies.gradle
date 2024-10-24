@@ -10,6 +10,7 @@ ext {
     libs = [
             springBootStarterWeb       : "org.springframework.boot:spring-boot-starter-web:${versions.springBoot}",
             springCloudStarterOpenFeign: "org.springframework.cloud:spring-cloud-starter-openfeign:${versions.springCloud}",
+            springBootDataRedis             : "org.springframework.boot:spring-boot-starter-data-redis:${versions.springBoot}",
             springCloudConfig          : "org.springframework.cloud:spring-cloud-starter-config:${versions.springCloud}",
             springCloudConfigServer    : "org.springframework.cloud:spring-cloud-config-server:${versions.springCloud}",
             springCloudConfigClient    : "org.springframework.cloud:spring-cloud-config-client:${versions.springCloud}",
